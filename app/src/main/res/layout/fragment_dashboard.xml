@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragment.DashboardFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!--<TextView
+        android:id="@+id/dashboardfragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dashboard_fragment"
+        android:textSize="20sp"
+        android:padding="10dp"/>-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        />
+        <!--android:layout_below="@id/dashboardfragment"/>-->
+    <!--<Button
+        android:id="@+id/btnCheckInternet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Internet"
+        android:layout_alignParentBottom="true"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColorHint="@color/teal_200"
+        android:textColor="#ffffff"/>-->
+    <RelativeLayout
+        android:id="@+id/Progresslayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        >
+        <ProgressBar
+            android:id="@+id/Progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

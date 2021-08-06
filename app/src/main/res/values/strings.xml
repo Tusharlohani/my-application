@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">KitabiKeeda</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="favourites">Favourites</string>
+    <string name="profile">Profile</string>
+    <string name="about">About</string>
+    <string name="navigation_drawer">Navigation Drawer</string>
+    <string name="open_drawer">Open drawer</string>
+    <string name="close_drawer">Close drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dashboard_fragment">Dashboard_fragment</string>
+    <string name="favourites_fragment">Favourites_Fragment</string>
+    <string name="Profile_fragment">Profile_Fragment</string>
+    <string name="About_fragment">About_Fragment</string>
+    <string name="addtofavourites">Add to Favourites</string>
+</resources>
